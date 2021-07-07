@@ -1,0 +1,17 @@
+void main(){
+ 
+ //Exercício
+ int n1 = 7; //Valor
+  
+ //Média Decisão
+ if(n1 >= 7 && n1<=8)
+ {
+   print("Está entre 7 e 8");
+ }  
+  else
+ {
+   print("Não está entre 7 e 8");
+ }  
+  
+  
+}

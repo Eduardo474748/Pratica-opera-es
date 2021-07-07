@@ -1,0 +1,14 @@
+void main(){
+ const int primeiro_valor = 18;
+ const int segundo_valor = 36;
+ const bool e_maior = primeiro_valor > segundo_valor;
+ const bool sao_iguais = primeiro_valor == segundo_valor;
+ 
+ if (e_maior) {
+   print("O primeiro valor é maior que o segundo");
+ } else if (sao_iguais) {
+   print("Os números são iguais");
+ } else{
+   print("O segundo valor é maior que o primeiro");
+ } 
+}

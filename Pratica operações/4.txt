@@ -1,0 +1,23 @@
+void main(){
+ 
+ //Exercício
+ int n1 = 8; //Nota 1
+ int n2 = 9; //Nota 2 
+ int n3 = 10; //Nota 3
+ double media; //Variável auxiliar para somar as notas
+  
+ //Somar as notas
+ media = (n1+n2+n3)/3;
+ 
+ //Média Decisão
+ if(media >=7)
+ {
+   print("Aprovado");
+ }  
+ else
+ {
+   print("Reprovado");
+ }
+  
+  
+}

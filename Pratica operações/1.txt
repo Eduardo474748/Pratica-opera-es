@@ -1,0 +1,9 @@
+void main(){
+  print(operadorTernario(17));
+}
+
+String operadorTernario(num numero){
+  return (numero > 0)
+    ? "O número $numero é positivo!!!"
+    : "O número $numero é negativo!!!";
+}
